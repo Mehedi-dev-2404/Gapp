@@ -1,0 +1,68 @@
+// Seeded static notices for the Feed page — campus-flavoured, not user-generated.
+
+export const NOTICES = [
+  {
+    id: 'n1',
+    day: 'Mon',
+    hour: 9,
+    category: 'Library',
+    title: 'Stockwell Street Library — extended hours this week',
+    body: 'Open until 10pm Monday to Thursday for exam season. Group study rooms bookable on the ground floor.',
+  },
+  {
+    id: 'n2',
+    day: 'Mon',
+    hour: 13,
+    category: 'Market',
+    title: 'Greenwich Market — extra stalls today',
+    body: 'Street food traders are out in force by the south entrance. Worth the five-minute walk from Stockwell Street.',
+  },
+  {
+    id: 'n3',
+    day: 'Tue',
+    hour: 10,
+    category: 'Campus',
+    title: 'King William Court — lift maintenance',
+    body: 'The west lift is out of service until Wednesday. Use the main staircase or the Queen Anne Court lift instead.',
+  },
+  {
+    id: 'n4',
+    day: 'Wed',
+    hour: 12,
+    category: 'Weather',
+    title: 'Greenwich Park is sunny today',
+    body: 'Clear skies and mild — a good day for an outdoor hangout before your next lecture.',
+  },
+  {
+    id: 'n5',
+    day: 'Wed',
+    hour: 16,
+    category: 'Club',
+    title: 'AlphaBeta tech meetup — Thursday',
+    body: 'Lightning talks on student projects, hosted by the AlphaBeta Society in Queen Anne Court, room QA075. All welcome.',
+  },
+  {
+    id: 'n6',
+    day: 'Thu',
+    hour: 14,
+    category: 'Club',
+    title: 'Greenwich Debate Society — open floor',
+    body: 'Drop-in debate practice this afternoon, no sign-up needed. Dreadnought seminar room 2.',
+  },
+  {
+    id: 'n7',
+    day: 'Fri',
+    hour: 9,
+    category: 'Campus',
+    title: 'Dreadnought gym — new class schedule live',
+    body: 'Updated timetable for the spring term is up now, including two new HIIT slots after 5pm.',
+  },
+  {
+    id: 'n8',
+    day: 'Fri',
+    hour: 16,
+    category: 'Student offer',
+    title: 'Cutty Sark Tavern — free entry evening for students',
+    body: 'Show your Greenwich student card on the door after 6pm this Friday for free entry.',
+  },
+]
